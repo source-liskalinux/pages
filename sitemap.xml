@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://liskalinux.codeberg.page</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://liskalinux.codeberg.page/about</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://liskalinux.codeberg.page/download</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://liskalinux.codeberg.page/installation-guide</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://liskalinux.codeberg.page/privacy-policy</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+  </url>
+</urlset>
