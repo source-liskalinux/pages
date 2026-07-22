@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Liska Linux Project</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="nav-wrapper glass-card">
+        <a href="/" class="logo">
+          <img src="/assets/logo.svg" alt="Liska Linux Project" width="50" height="50">
+          <span>
+            <strong>Liska Linux Project</strong>
+            <small>Precision over chaos. Isolation over compromise.</small>
+          </span>
+        </a>
+        <input type="checkbox" id="nav-toggle-checkbox" class="nav-toggle-checkbox" aria-hidden="true">
+        <label for="nav-toggle-checkbox" class="nav-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle navigation menu">
+          <span class="sr-only">Open navigation menu</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 7h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 17h16"></path>
+          </svg>
+        </label>
+        <nav aria-label="Main navigation">
+          <ul id="main-menu" class="nav-menu">
+            <li><a href="/about" class="active">About</a></li>
+            <li><a href="/download">Download</a></li>
+            <li><a href="/installation-guide">Installation Guide</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://ko-fi.com/liskalinux">Support</a></li>
+            <li><a href="https://codeberg.org/liskalinux" target="_blank" rel="noopener">Codeberg</a></li>
+            <li><a href="https://repo-liskalinux.github.io" target="_blank" rel="noopener">Repository</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <label class="nav-backdrop" for="nav-toggle-checkbox" aria-hidden="true"></label>
+
+  <main class="container">
+    <div class="feature-card glass-card">
+      <h1>About Liska Linux</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor,
+        nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget ultricies nunc nisl eget nunc.
+      </p>
+      <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, 
+        nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget ultricies nunc nisl eget nunc.
+      </p>
+      <h3>Lorem ipsum</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, 
+        nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget ultricies nunc nisl eget nunc.
+      </p>
+      <h3>Lorem ipsum</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, 
+        nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget ultricies nunc nisl eget nunc.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© Liska Linux Project: General Public License v3 or Later.</p>
+    </div>
+  </footer>
+  <script src="/nav.js"></script>
+</body>
+</html>
