@@ -117,7 +117,7 @@
             renderTable(repoData);
         } catch (error) {
             console.error('Error detail:', error);
-            tableBody.innerHTML = `<tr><td colspan="2" style="text-align:center;color:#ef4444;">Gagal memuat db.json: ${error.message}</td></tr>`;
+            tableBody.innerHTML = `<tr><td colspan="2" style="text-align:center;color:#ef4444;">Failed to load db.json: ${error.message}</td></tr>`;
         }
     }
     function renderTable(data) {
