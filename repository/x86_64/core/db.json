@@ -1,6 +1,36 @@
 {
   "packages": [
     {
+      "name": "linux",
+      "version": "7.1.4-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/linux-7.1.4-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "linux-headers",
+      "version": "7.1.4-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/linux-headers-7.1.4-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "lkpm",
+      "version": "1.0.0-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkpm-1.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "lkchroot",
+      "version": "1.0.0-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkchroot-1.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "lkstrap",
+      "version": "1.0.0-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkstrap-1.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "calamares",
+      "version": "3.4.2-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/calamares-3.4.2-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "acl",
       "version": "2.4.0-1",
       "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/acl-2.4.0-1-x86_64.pkg.tar.zst"
