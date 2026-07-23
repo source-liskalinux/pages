@@ -95,24 +95,41 @@
     let repoData = [];
     async function loadRepo() {
         try {
-            const response = await fetch('db.json');
-            repoData = await response.json();
+            const response = await fetch('db.json?v=' + new Date().getTime());
+            if (!response.ok) {
+                throw new Error(`HTTP Error Status: ${response.status}`);
+            }
+            const rawData = await response.json();
+            console.log("Data berhasil diambil:", rawData);
+            if (Array.isArray(rawData)) {
+                repoData = rawData;
+            } else if (rawData.packages && Array.isArray(rawData.packages)) {
+                repoData = rawData.packages;
+            } else {
+                throw new Error("Unknown JSON format!");
+            }
+            repoData.sort((a, b) => {
+                return a.name.localeCompare(b.name, undefined, {
+                    numeric: true,
+                    sensitivity: 'base'
+                });
+            });
             renderTable(repoData);
         } catch (error) {
-            console.error('Error loading db.json:', error);
-            tableBody.innerHTML = `<tr><td colspan="2" style="text-align:center;color:#ef4444;">Error loading db.json. Is the file in the same directory?</td></tr>`;
+            console.error('Error detail:', error);
+            tableBody.innerHTML = `<tr><td colspan="2" style="text-align:center;color:#ef4444;">Gagal memuat db.json: ${error.message}</td></tr>`;
         }
     }
     function renderTable(data) {
         tableBody.innerHTML = '';
-        if (data.length === 0) {
+        if (!data || data.length === 0) {
             tableBody.innerHTML = `<tr><td colspan="2" style="text-align:center;">No packages found</td></tr>`;
             return;
         }
         data.forEach(packages => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td><strong><a href="${p.url || '#'}">${packages.name}</a></strong></td>
+                <td><strong><a href="${packages.url || '#'}">${packages.name}</a></strong></td>
                 <td>${packages.version}</td>
             `;
             tableBody.appendChild(row);
