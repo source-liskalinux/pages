@@ -906,11 +906,6 @@
       "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/linux-api-headers-7.1-1-x86_64.pkg.tar.zst"
     },
     {
-      "name": "linux-docs",
-      "version": "7.1.4.arch1-1",
-      "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/linux-docs-7.1.4.arch1-1-x86_64.pkg.tar.zst"
-    },
-    {
       "name": "linux-firmware",
       "version": "20260622-1",
       "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/linux-firmware-20260622-1-any.pkg.tar.zst"
@@ -1006,21 +1001,6 @@
       "url": "https://archive.org/download/repo-liskalinux/x86_64/core/linux-headers-7.1.4-1-x86_64.pkg.tar.zst"
     },
     {
-      "name": "linux-lts",
-      "version": "6.18.39-1",
-      "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/linux-lts-6.18.39-1-x86_64.pkg.tar.zst"
-    },
-    {
-      "name": "linux-lts-docs",
-      "version": "6.18.39-1",
-      "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/linux-lts-docs-6.18.39-1-x86_64.pkg.tar.zst"
-    },
-    {
-      "name": "linux-lts-headers",
-      "version": "6.18.39-1",
-      "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/linux-lts-headers-6.18.39-1-x86_64.pkg.tar.zst"
-    },
-    {
       "name": "lkchroot",
       "version": "1.0.0-1",
       "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkchroot-1.0.0-1-x86_64.pkg.tar.zst"
@@ -1094,11 +1074,6 @@
       "name": "minizip",
       "version": "1%3A1.3.2-3",
       "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/minizip-1%3A1.3.2-3-x86_64.pkg.tar.zst"
-    },
-    {
-      "name": "mkinitcpio",
-      "version": "41-4",
-      "url": "https://fastly.mirror.pkgbuild.com/core/os/x86_64/mkinitcpio-41-4-any.pkg.tar.zst"
     },
     {
       "name": "mkinitcpio-busybox",
