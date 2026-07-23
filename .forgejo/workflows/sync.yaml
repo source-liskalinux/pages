@@ -7,7 +7,7 @@ on:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: docker
     steps:
       - name: Checkout Codeberg Repository
         uses: actions/checkout@v4
@@ -21,7 +21,7 @@ jobs:
         run: node sync.js
       - name: Commit and Push Updated db.json
         run: |
-          git config --global user.name "Janorovic Volkov"
+          git config --global user.name "janorovicvolkov"
           git config --global user.email "janorovicvolkov@gmail.com"
           git add repository/x86_64/core/db.json repository/x86_64/extra/db.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: automated 24h repo sync [skip ci]" && git push origin HEAD:${{ github.ref_name }})
