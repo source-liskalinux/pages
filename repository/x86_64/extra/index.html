@@ -108,7 +108,12 @@
             } else {
                 throw new Error("Unknown JSON format!");
             }
-
+            repoData.sort((a, b) => {
+                return a.name.localeCompare(b.name, undefined, {
+                    numeric: true,
+                    sensitivity: 'base'
+                });
+            });
             renderTable(repoData);
         } catch (error) {
             console.error('Error detail:', error);
