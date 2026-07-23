@@ -121,11 +121,11 @@
             tableBody.innerHTML = `<tr><td colspan="2" style="text-align:center;">No packages found</td></tr>`;
             return;
         }
-        data.forEach(pkg => {
+        data.forEach(packages => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td><strong><a href="${pkg.url || '#'}">${pkg.name}</a></strong></td>
-                <td>${pkg.version}</td>
+                <td><strong><a href="${packages.url || '#'}">${packages.name}</a></strong></td>
+                <td>${packages.version}</td>
             `;
             tableBody.appendChild(row);
         });
