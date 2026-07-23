@@ -96,7 +96,7 @@
     async function loadRepo() {
         try {
             const response = await fetch('db.json');
-            repoData = await response.json();
+            repoData = jsonResult.packages || [];
             renderTable(repoData);
         } catch (error) {
             console.error('Error loading db.json:', error);
