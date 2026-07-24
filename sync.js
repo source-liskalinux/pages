@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const ARCH_MIRROR = "https://fastly.mirror.pkgbuild.com";
+const ARCH_MIRROR = "http://mirror.rackspace.com/archlinux";
 const REPOS = ["core", "extra"];
 const ARCHS = ["x86_64"];
 
