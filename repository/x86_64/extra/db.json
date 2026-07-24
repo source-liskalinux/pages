@@ -7981,6 +7981,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clucene-2.3.3.4-17-x86_64.pkg.tar.zst"
     },
     {
+      "name": "clustershell",
+      "version": "1.10.1-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clustershell-1.10.1-2-any.pkg.tar.zst"
+    },
+    {
       "name": "clxclient",
       "version": "3.9.2-6",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clxclient-3.9.2-6-x86_64.pkg.tar.zst"
@@ -27382,18 +27387,18 @@
     },
     {
       "name": "kitty",
-      "version": "0.48.0-1",
-      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kitty-0.48.0-1-x86_64.pkg.tar.zst"
+      "version": "0.48.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kitty-0.48.1-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "kitty-shell-integration",
-      "version": "0.48.0-1",
-      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kitty-shell-integration-0.48.0-1-x86_64.pkg.tar.zst"
+      "version": "0.48.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kitty-shell-integration-0.48.1-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "kitty-terminfo",
-      "version": "0.48.0-1",
-      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kitty-terminfo-0.48.0-1-x86_64.pkg.tar.zst"
+      "version": "0.48.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kitty-terminfo-0.48.1-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "kiwix-desktop",
@@ -48157,8 +48162,8 @@
     },
     {
       "name": "python-cachetools",
-      "version": "7.1.5-1",
-      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cachetools-7.1.5-1-any.pkg.tar.zst"
+      "version": "7.1.6-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cachetools-7.1.6-1-any.pkg.tar.zst"
     },
     {
       "name": "python-cachy",
@@ -56882,8 +56887,8 @@
     },
     {
       "name": "python-urwid",
-      "version": "4.0.5-1",
-      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-urwid-4.0.5-1-any.pkg.tar.zst"
+      "version": "4.0.7-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-urwid-4.0.7-1-any.pkg.tar.zst"
     },
     {
       "name": "python-urwid_readline",
