@@ -14,3 +14,5 @@ if (navToggleCheckbox && navToggleLabel && mainMenu) {
   updateLabelState();
 }
 
+document.getElementById("year").textContent = new Date().getFullYear();
+
