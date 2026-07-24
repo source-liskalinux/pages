@@ -82,7 +82,7 @@
             </tr>
         </thead>
         <tbody>
-            <td><strong><a href="/repository/x86_64">go to parent directory</a></strong></td>
+            <td><strong><a href="/repository/x86_64">↵ Go to parent directory</a></strong></td>
             <td>[no data]</td>
         </tbody>
         <tbody id="repoTableBody">
@@ -129,7 +129,7 @@
         data.forEach(packages => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td><strong><a href="${packages.url || '#'}">${packages.name}</a></strong></td>
+                <td><strong><a href="${packages.url || '#'}"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Breezeicons-mimetypes-64-package-x-generic.svg" width="18" height="18"> ${packages.name}</a></strong></td>
                 <td>${packages.version}</td>
             `;
             tableBody.appendChild(row);
