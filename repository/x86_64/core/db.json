@@ -156,6 +156,11 @@
       "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/ca-certificates-utils-20240618-1-any.pkg.tar.zst"
     },
     {
+      "name": "calamares",
+      "version": "3.4.2-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/calamares-3.4.2-1-x86_64.pkg.tar.zst"
+	},
+    {
       "name": "coreutils",
       "version": "9.11-2",
       "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/coreutils-9.11-2-x86_64.pkg.tar.zst"
@@ -916,6 +921,11 @@
       "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/links-2.30-2-x86_64.pkg.tar.zst"
     },
     {
+	  "name": "linux",
+	  "version": "7.1.4-1",
+      "url": "https://archive.org/download/repo-liskalinux/x86_64/core/linux-7.1.4-1-x86_64.pkg.tar.zst"
+	},
+    {
       "name": "linux-api-headers",
       "version": "7.1-1",
       "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-api-headers-7.1-1-x86_64.pkg.tar.zst"
@@ -1010,6 +1020,26 @@
       "version": "20260622-1",
       "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-whence-20260622-1-any.pkg.tar.zst"
     },
+    {
+	  "name": "linux-headers",
+	  "version": "7.1.4-1",
+	  "url": "https://archive.org/download/repo-liskalinux/x86_64/core/linux-headers-7.1.4-1-x86_64.pkg.tar.zst"
+	},
+	{
+	  "name": "lkchroot",
+	  "version": "1.0.0-1",
+	  "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkchroot-1.0.0-1-x86_64.pkg.tar.zst"
+	},
+	{
+	  "name": "lkpm",
+	  "version": "1.0.0-1",
+	  "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkpm-1.0.0-1-x86_64.pkg.tar.zst"
+	},
+	{
+	  "name": "lkstrap",
+	  "version": "1.0.0-1",
+	  "url": "https://archive.org/download/repo-liskalinux/x86_64/core/lkstrap-1.0.0-1-x86_64.pkg.tar.zst"
+	},
     {
       "name": "logrotate",
       "version": "3.22.0-1",
