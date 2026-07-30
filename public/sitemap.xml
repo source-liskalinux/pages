@@ -2,27 +2,22 @@
 <?xml-stylesheet type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://liskalinux.codeberg.page</loc>
+    <loc>https://liskalinuxproject.web.app/</loc>
     <priority>1.0</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://liskalinux.codeberg.page/about</loc>
+    <loc>https://liskalinuxproject.web.app/about</loc>
     <priority>1.0</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://liskalinux.codeberg.page/download</loc>
+    <loc>https://liskalinuxproject.web.app/download</loc>
     <priority>1.0</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://liskalinux.codeberg.page/installation-guide</loc>
-    <priority>1.0</priority>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://liskalinux.codeberg.page/privacy-policy</loc>
+    <loc>https://liskalinuxproject.web.app/privacy-policy</loc>
     <priority>1.0</priority>
     <changefreq>hourly</changefreq>
   </url>
